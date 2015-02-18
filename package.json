@@ -1,19 +1,17 @@
 {
   "name": "dota-website",
-  "version": "1.0.0",
-  "description": "The Daughters of the Alliance website",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Caitlin Bailey <ayashi@valefor.com> (http://www.caiters.com/)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/caiters/dota-website.git"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "^4.11.2",
-    "handlebars": "^3.0.0"
+    "body-parser": "~1.10.2",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.1.1",
+    "express": "~4.11.1",
+    "hbs": "~2.8.0",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
   }
 }
