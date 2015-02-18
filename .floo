@@ -1,6 +1,6 @@
 {
-  "url": "https://floobits.com/Valefor/dota",
-  "hooks": {
-    "*": "echo #FLOO_HOOK_FILE"
-  }
+    "hooks": {
+        "*": "echo #FLOO_HOOK_FILE"
+    }, 
+    "url": "https://floobits.com/kelsin/dota-website"
 }

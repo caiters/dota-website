@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Caitlin Bailey <ayashi@valefor.com> (http://www.caiters.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/caiters/dota-website.git"
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "handlebars": "^3.0.0"
+  }
 }
