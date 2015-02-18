@@ -1,0 +1,6 @@
+{
+  "url": "https://floobits.com/Valefor/dota",
+  "hooks": {
+    "*": "echo #FLOO_HOOK_FILE"
+  }
+}
